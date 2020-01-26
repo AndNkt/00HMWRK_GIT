@@ -10,6 +10,39 @@
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
 		</script>
 
+
+	 <style>
+        .hide{
+            display:none;
+        }
+
+        body{
+            width: 500px;
+            margin: auto;
+            text-align: center;
+            
+        }
+        dl{
+            
+        }
+        dd{
+            
+        }
+        dt{
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1.5em;
+            line-height: 2em;
+            background-color: #EFEFEF;
+            border-bottom: 1px solid #c5c5c5;
+            border-top: 1px solid white;            
+        }
+        dt:first-child{ border-top: none; }
+        dt:nth-last-child(2){ border-top: none; }
+        
+    </style>
+
+
 	<title>HomeWork00</title>
 </head>
 
@@ -31,34 +64,36 @@
 			<dt>git add </dt>
 				<dd>Виберає файли, зміни які будуть проведені і перенесені до буфера до часу коміта</dd>
 			<dt>git commit</dt>
-				<dd>Зберігає всі файли, зміни що ми вибрали для коміт</dd>
+				<dd>Зберігає всі файли,зміни що ми вибрали з staging area</dd>
 			<dt>git log </dt>
 				<dd>Перегляд історії комітів</dd>
 			<dt>git checkout</dt>
-				<dd>Використовується для переключення гілок та вигрузку в робочу папку, etc</dd>
+				<dd>Використовується для переключення гілок та вигрузки в робочу папку, etc</dd>
 			<dt>git branch </dt>
 				<dd>Керування гілками, створення, перегляд, видаленням тощо.</dd>
 			<dt>git push </dt>
 				<dd>передача файлів "змін" на відділений репозиторій</dd>
 			<dt>git pull </dt>
-				<dd>заберає зміни з віддаленого репозиторію</dd>
+				<dd>заміняє команди git fetch and git merge origin/master - get data from another repo</dd>
 			<dt>git merge </dt>
 				<dd>злиття гілок</dd>
 			<dt>git clone </dt>
 				<dd>команда використовується для клонування "копіювання" репозиторіїв</dd>
-			.gitignore - це файл в якому вказуються папки та файли які Gitsdf пропускає і не контролює "не відслідковує"
-			їхні зміни.
+
+				<p>	
+					.gitignore - це файл в якому вказуються папки та файли які Gitsdf пропускає і не контролює "не відслідковує" їхні зміни.
+				</p>
 
 			<dt>git revert </dt>
-			<dd>відміняє коміт, відкатує, створює новий коміт без змін</dd>
+				<dd>відміняє коміт, відкатує, створює новий коміт без змін</dd>
 			<dt>git reset </dt>
-			<dd>відміняє зміни</dd>
+				<dd>відміняє зміни</dd>
 			<dt>git rebase </dt>
-			<dd>обєднує зміни зроблені в одній гільці з іншою гілкою</dd>
+				<dd>обєднує зміни зроблені в одній гільці з іншою гілкою на противагу злиттю</dd>
 			<dt>git cherry-pick </dt>
-			<dd>забрати коміти з однієї гілки в іншу</dd>
+				<dd>забрати коміти з однієї гілки в іншу</dd>
 			<dt>git stash </dt>
-			<dd>ховає зміни в файлах і зберігає їх окремо, потім можна їх повернути</dd>
+				<dd>ховає зміни в файлах і зберігає їх окремо, потім можна їх повернути</dd>
 
 		</dl>
 
